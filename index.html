@@ -1,53 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Playthrough Page</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 20px;
-      }
 
-      .playthrough-time {
-        font-size: 24px;
-        margin-bottom: 20px;
-      }
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Playthrough Page</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
 
-      .image-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-      }
+        .playthrough-time {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
 
-      .image-container img {
-        aspect-ratio: 4 / 3;
-        width: 45%;
-        max-width: 400px;
-      }
-
-      /* Responsive design for mobile */
-      @media (max-width: 600px) {
         .image-container {
-          flex-direction: column;
-          align-items: center; /* Center images on mobile */
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
         }
 
         .image-container img {
-          width: 80%;
+            aspect-ratio: 4 / 3;
+            width: 45%;
+            max-width: 400px;
         }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="playthrough-time">Current Playthrough Time: 113:32:32</div>
 
-    <div class="image-container">
-      <img src="image1.png" alt="Image 1" />
-      <img src="image2.png" alt="Image 2" />
-    </div>
-  </body>
-</html>
+        /* Responsive design for mobile */
+        @media (max-width: 600px) {
+            .image-container {
+            flex-direction: column;
+            align-items: center; /* Center images on mobile */
+            }
+
+            .image-container img {
+            width: 80%;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="playthrough-time">Current Playthrough Time: 00:00:03</div>
+
+        <div class="image-container">
+        <img src="image1.png" alt="Image 1" />
+        <img src="image2.png" alt="Image 2" />
+        </div>
+    </body>
+    </html>
+    
