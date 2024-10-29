@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playthrough Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .playthrough-time {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .image-container img {
+        aspect-ratio: 4 / 3;
+        width: 45%;
+        max-width: 400px;
+      }
+
+      /* Responsive design for mobile */
+      @media (max-width: 600px) {
+        .image-container {
+          flex-direction: column;
+        }
+
+        .image-container img {
+          width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="playthrough-time">Current Playthrough Time: x</div>
+
+    <div class="image-container">
+      <img src="image1.jpg" alt="Image 1" />
+      <img src="image2.jpg" alt="Image 2" />
+    </div>
+  </body>
+</html>
